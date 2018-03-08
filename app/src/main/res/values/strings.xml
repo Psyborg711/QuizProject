@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quiz Project</string>
+    <string name="Quest1">1)  What programming language concept does C++ have available
+which is not available in Java programming, which deals specifically with memory locations?</string>
+    <string name="Quest2">2)  What main trait of Java programming makes it desirable
+over other programming languages?</string>
+    <string name="Quest3">3)  What is the HTML abbreviation?</string>
+    <string name="Quest4">4)  If coding HTML in a notepad after declaring the doctype
+what is the starting tag?</string>
+    <string name="Quest5">5)  In object oriented programming which instance of
+Polymorphism does not allow the compiler to determine
+methods to be executed but it is determined during run
+time?</string>
+    <string name="Quest6">6)  In Java programming what basic concept of Object
+Oriented programming is elicited by the use of the keyword: extends</string>
+    <string name="Quest7">7)  Which primitive variable below can store a decimal value?</string>
+    <string name="Quest8">8)  In Java programming what is the purpose of an array
+container object?</string>
+    <string name="Quest9">9)  An ArrayList can be dynamic at declaration.</string>
+    <string name="Quest10">10)  In Java which Loop Type is tested after the execution
+of the interior code before it determines if it will loop
+again?</string>
+    <string name="Hint1">Type Answer Here</string>
+    <string name="Choice2_1">Run time speed</string>
+    <string name="Choice2_2">Low learning curve comparatively</string>
+    <string name="Choice2_3">Cross Platform Independent</string>
+    <string name="Choice2_4">Unaffected by viruses</string>
+    <string name="Choice3_1">HyperText Machine Language</string>
+    <string name="Choice3_2">HyperText Manipulation Language</string>
+    <string name="Choice3_3">HyperText Moving Language</string>
+    <string name="Choice3_4">HyperText Markup Language</string>
+    <string name="Choice4_1">&lt;HTML&gt;</string>
+    <string name="Choice4_2">&lt;META&gt;</string>
+    <string name="Choice4_3">&lt;BODY&gt;</string>
+    <string name="Choice4_4">&lt;TITLE&gt;</string>
+    <string name="Choice5_1">Static Polymorphism</string>
+    <string name="Choice5_2">Dynamic Polymorphism</string>
+    <string name="Choice6_1">Inheritance</string>
+    <string name="Choice6_2">Polymorphism</string>
+    <string name="Choice6_3">Abstraction</string>
+    <string name="Choice6_4">Encapsulation</string>
+    <string name="Choice7_1">boolean</string>
+    <string name="Choice7_2">char</string>
+    <string name="Choice7_3">float</string>
+    <string name="Choice7_4">int</string>
+    <string name="Choice8_1">It will draw a ray or a straight line</string>
+    <string name="Choice8_2">It will allow conversions of one data type to another</string>
+    <string name="Choice8_3">It will store a fixed number of values</string>
+    <string name="Choice8_4">It will compare two primitive data values</string>
+    <string name="Choice9_1">True</string>
+    <string name="Choice9_2">False</string>
+    <string name="Choice10_1">Do While Loop</string>
+    <string name="Choice10_2">For Loop</string>
+    <string name="Choice10_3">While Loop</string>
+    <string name="Choice10_4">Do Until Loop</string>
+</resources>
