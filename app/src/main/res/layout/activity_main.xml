@@ -9,7 +9,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#000000"
         android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/matrixriddle"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -17,6 +24,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest1"
             android:textSize="24sp" />
 
@@ -27,10 +35,10 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary"
+            android:background="#02E148"
             android:hint="@string/Hint1"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff" />
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,6 +46,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest2"
             android:textSize="24sp" />
 
@@ -48,35 +57,40 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:id="@+id/rb_question_two_a"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice2_1"
-                android:textColor="#ffffff" />
+                android:textColorHighlight="#000000"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:id="@+id/rb_question_two_b"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice2_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:id="@+id/question_two_c"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice2_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:id="@+id/question_two_d"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice2_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -86,6 +100,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest3"
             android:textSize="24sp" />
 
@@ -96,31 +111,35 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice3_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice3_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice3_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice3_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -130,6 +149,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest4"
             android:textSize="24sp" />
 
@@ -140,31 +160,35 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice4_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice4_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice4_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice4_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -174,6 +198,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest5"
             android:textSize="24sp" />
 
@@ -184,19 +209,21 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice5_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice5_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -206,6 +233,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest6"
             android:textSize="24sp" />
 
@@ -216,31 +244,35 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice6_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice6_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice6_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice6_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -250,6 +282,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest7"
             android:textSize="24sp" />
 
@@ -260,31 +293,35 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice7_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice7_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice7_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice7_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -294,6 +331,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest8"
             android:textSize="24sp" />
 
@@ -304,31 +342,35 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice8_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice8_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice8_3"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice8_4"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -338,6 +380,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest9"
             android:textSize="24sp" />
 
@@ -348,19 +391,21 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary">
+            android:background="#00FF00">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice9_1"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/Choice9_2"
-                android:textColor="#ffffff" />
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -370,6 +415,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
+            android:textColor="#00FF00"
             android:text="@string/Quest10"
             android:textSize="24sp" />
 
@@ -380,10 +426,11 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary"
+            android:background="#00FF00"
             android:paddingLeft="16dp"
             android:text="@string/Choice10_1"
-            android:textColor="#ffffff" />
+            android:buttonTint="#000000"
+            android:textColor="#000000" />
 
         <CheckBox
             android:id="@+id/checkbox_two"
@@ -391,10 +438,11 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorPrimary"
+            android:background="#00FF00"
             android:paddingLeft="16dp"
             android:text="@string/Choice10_2"
-            android:textColor="#ffffff" />
+            android:buttonTint="#000000"
+            android:textColor="#000000" />
 
         <CheckBox
             android:id="@+id/checkbox_three"
@@ -402,10 +450,11 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorPrimary"
+            android:background="#00FF00"
             android:paddingLeft="16dp"
             android:text="@string/Choice10_3"
-            android:textColor="#ffffff" />
+            android:buttonTint="#000000"
+            android:textColor="#000000" />
 
         <CheckBox
             android:id="@+id/checkbox_four"
@@ -413,10 +462,11 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorPrimary"
+            android:background="#00FF00"
             android:paddingLeft="16dp"
             android:text="@string/Choice10_4"
-            android:textColor="#ffffff" />
+            android:buttonTint="#000000"
+            android:textColor="#000000" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -430,6 +480,7 @@
                 android:layout_marginTop="48dp"
                 android:text="Submit Answer"
                 android:textSize="20sp"
+                android:backgroundTint="@color/colorPrimary"
                 android:onClick="onSubmit"/>
 
         </RelativeLayout>

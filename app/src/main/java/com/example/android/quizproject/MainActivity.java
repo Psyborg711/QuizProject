@@ -55,67 +55,116 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // calling the pChoice method to get the player's choice
-        String Q2Answer = pChoice(mRadioGroupQ2);
+        if (mRadioGroupQ2.getCheckedRadioButtonId() != -1)
+        {
+            String Q2Answer = pChoice(mRadioGroupQ2);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q2Answer.equals("Cross Platform Independent")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q2Answer.equals("Cross Platform Independent")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q3Answer = pChoice(mRadioGroupQ3);
+        if (mRadioGroupQ3.getCheckedRadioButtonId() != -1) {
+            String Q3Answer = pChoice(mRadioGroupQ3);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q3Answer.equals("HyperText Markup Language")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q3Answer.equals("HyperText Markup Language")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q4Answer = pChoice(mRadioGroupQ4);
+        if (mRadioGroupQ4.getCheckedRadioButtonId() != -1) {
+            String Q4Answer = pChoice(mRadioGroupQ4);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q4Answer.equals("<HTML>")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q4Answer.equals("<HTML>")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q5Answer = pChoice(mRadioGroupQ5);
+        if (mRadioGroupQ5.getCheckedRadioButtonId() != -1) {
+            String Q5Answer = pChoice(mRadioGroupQ5);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q5Answer.equals("Dynamic Polymorphism")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q5Answer.equals("Dynamic Polymorphism")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q6Answer = pChoice(mRadioGroupQ6);
+        if (mRadioGroupQ6.getCheckedRadioButtonId() != -1) {
+            String Q6Answer = pChoice(mRadioGroupQ6);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q6Answer.equals("Inheritance")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q6Answer.equals("Inheritance")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q7Answer = pChoice(mRadioGroupQ7);
+        if (mRadioGroupQ7.getCheckedRadioButtonId() != -1) {
+            String Q7Answer = pChoice(mRadioGroupQ7);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q7Answer.equals("float")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q7Answer.equals("float")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q8Answer = pChoice(mRadioGroupQ8);
+        if (mRadioGroupQ8.getCheckedRadioButtonId() != -1) {
+            String Q8Answer = pChoice(mRadioGroupQ8);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q8Answer.equals("It will store a fixed number of values")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q8Answer.equals("It will store a fixed number of values")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // calling the pChoice method to get the player's choice
-        String Q9Answer = pChoice(mRadioGroupQ9);
+        if (mRadioGroupQ9.getCheckedRadioButtonId() != -1) {
+            String Q9Answer = pChoice(mRadioGroupQ9);
 
-        // Test if player's choice is correct and update the correctAnswer variable
-        if (Q9Answer.equals("True")) {
-            correctAnswer++;
+            // Test if player's choice is correct and update the correctAnswer variable
+            if (Q9Answer.equals("True")) {
+                correctAnswer++;
+            }
+        }
+        else
+        {
+            errorOccured=true;
         }
 
         // Testing for question 10
