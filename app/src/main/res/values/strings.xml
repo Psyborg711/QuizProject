@@ -53,4 +53,5 @@ again?</string>
     <string name="Choice10_2">For Loop</string>
     <string name="Choice10_3">While Loop</string>
     <string name="Choice10_4">Do Until Loop</string>
+    <string name="Submit_Answer">Submit Answer</string>
 </resources>
